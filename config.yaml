@@ -1,0 +1,27 @@
+systems:
+  - name: "MVSA"
+    host: "xxx.xxx.xxx.xxx"
+    user: "xxxxxxx"
+    password: "xxxxxxxx"
+    secure_3270: true
+    ssh_port: 2022
+    3270_port: 992
+    zosmf_port: 443
+
+  - name: "MVSB"
+    host: "xxx.xxx.xxx.xxx"
+    user: "xxxxxxxx"
+    password: "xxxxxxxx"
+    secure_3270: true
+    ssh_port: 2022
+    3270_port: 992
+    zosmf_port: 10443
+
+  - name: "MVSC"
+    host: "xxx.xxx.xxx.xxx"
+    user: "xxxxxxxx"
+    password: "xxxxxxxx"
+    secure_3270: true
+    ssh_port: 2022
+    3270_port: 992
+    zosmf_port: 10443
